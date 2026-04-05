@@ -1,0 +1,10 @@
+SignalID;Timestamp;SignalName;RawValue;Unit;MinRange;MaxRange;SafetyCritical
+101;2026-04-05T10:30:01;VehicleSpeed;72.5;km/h;0;250;true
+102;2026-04-05T10:30:01;EngineTemp;92.0;°C;-40;120;false
+201;2026-04-05T10:30:02;FrontRadarDistance;45.2;m;0;200;true
+202;2026-04-05T10:30:02;LidarObjectCount;12;pcs;0;50;true
+301;2026-04-05T10:30:03;BatteryVoltage;13.8;V;9;16;false
+302;2026-04-05T10:30:03;BrakePedalPosition;0;%;0;100;true
+401;2026-04-05T10:30:04;SteeringAngle;-5.2;deg;-540;540;true
+102;2026-04-05T10:30:05;EngineTemp;105.5;°C;-40;120;false
+201;2026-04-05T10:30:05;FrontRadarDistance;2.1;m;0;200;true
