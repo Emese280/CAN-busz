@@ -26,7 +26,7 @@ namespace CAN_busz
 
         public override string ToString()
         {
-            return base.ToString() + $"Range: {MinRange} - {MaxRange}; Status: {IsValueValid()}";
+            return base.ToString() + $"; Range: {MinRange} - {MaxRange}; Status: {IsSafetyCritical}";
         }
     }
 }

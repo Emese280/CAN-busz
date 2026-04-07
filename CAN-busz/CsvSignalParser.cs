@@ -27,8 +27,7 @@ namespace CAN_busz
                 double maxRange = Convert.ToDouble(fields[6], CultureInfo.InvariantCulture);
                 bool isSafetyCritical = bool.Parse(fields[7].ToLower());
 
-                datas.Add(new ScaledSignal(
-                signalId, timeStamp, signalName, unit, rawValue, isSafetyCritical, minRange, maxRange));
+                datas.Add(new ScaledSignal(signalId, timeStamp, signalName, unit, rawValue, isSafetyCritical, minRange, maxRange));
         }
         }
     }
