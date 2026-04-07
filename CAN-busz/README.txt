@@ -18,3 +18,6 @@ Konzolosan jeleníti meg az adatokat.
 -Ha a program nem találja a fájlt, sárga színnel írja ki a konzolba a problémát: Error: file not found!
 -Ha fájlbeolvasásnál kicserélem az értékeket, vagy elveszek belőlük: Unexpected error: The input string 'VehicleSpeed' was not in a correct format.
 -A program működőképes állapotban kiírja a konzolra az adatokat ;-vel elválasztva egymástól őket. 
+
+##Fejleszthető részek:
+Kritikus adatokat pirosan jelenítsen meg, true és false értékeket más színekkel irasson ki. Fájlban lévő adatok bővítése adatokkal.
