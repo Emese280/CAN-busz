@@ -16,10 +16,8 @@ namespace CAN_busz
         foreach (var item in File.ReadAllLines(fileName).Skip(1)){
         var fields = item.Split(';');
 
-                //int signalId, DateTime timestamp, string signalName, string unit, double rawValue, bool isSafetyCritical, double minRange, double maxRange
-
                 int signalId = Convert.ToInt32(fields[0]);
-                DateTime timeStamp = DateTime.Parse(fields[1]); // or Convert.ToDateTime(fields[1]
+                DateTime timeStamp = DateTime.Parse(fields[1]); 
                 string signalName = fields[2];
                 double rawValue = Convert.ToDouble(fields[3], CultureInfo.InvariantCulture);
                 string unit = fields[4];
