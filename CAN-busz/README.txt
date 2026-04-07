@@ -1,5 +1,5 @@
 ﻿#CAN-busz felhasználói dokumentáció
-Ez a program képes beolvasni a nagy mennyiségű CAN-busz járműv adatokat, kategorizálni, szétválasztani az egybefolyó adatokat egymástól.
+Ez a program képes kategorizálni nagy mennyiségű CAN-busz járművek adatait, és szétválasztai az egybefolyó adatokat egymástól.
 
 ##Rendszerkövetelmények:
 -Win10/11
